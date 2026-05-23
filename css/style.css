@@ -1,0 +1,61 @@
+body{}
+.one{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+.dadu{
+    display: inline-flex;
+}
+.chacha{
+    width: 306px;
+    background: orange;
+    text-align: center;
+    margin-right: 10px;
+}
+.chacha img{
+    width: 100%;
+}
+.chacha h1{}
+.chacha p{}
+.chacha button{
+        background: black;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:425px){
+    body{}
+.one{
+        color: #00ea00;
+        text-transform: capitalize;
+        background: black;
+        padding: 10px;
+}
+.dadu{
+        display: block;
+}
+.chacha{
+        background: purple;
+        color: #fff;
+        margin-bottom: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 100%;
+}
+.chacha img{
+
+}
+.chacha h1{}
+.chacha p{}
+.chacha button{
+
+}
+
+
+}
